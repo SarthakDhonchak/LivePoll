@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LivePoll</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>LivePoll</h1>
+        <p>Favourite Youtuber</p>
+
+        <form id="vote-form">
+            <p><input type="radio" name="youtuber" id="ltt" value="LTT">
+                <label for="LTT">Linus Tech Tips</label>
+
+            </p>
+            <p><input type="radio" name="youtuber" id="mkbhd" value="MKBHD">
+                <label for="MKBHD">MKBHD</label>
+
+            </p>
+            <p><input type="radio" name="youtuber" id="ub" value="UB">
+                <label for="UB">Unbox Therapy</label>
+
+            </p>
+            <p><input type="radio" name="youtuber" id="other" value="OTHER">
+                <label for="OTHER">OTHERS</label>
+
+            </p>
+            <INPUT type="submit" value="Vote" class="btn"></INPUT>
+        </form>
+
+
+        <br><br>
+
+        <div id="chartContainer" style="height: 300px;width: 100%;">
+
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/7.0.6/pusher.min.js"
+        integrity="sha512-S8Ie767Gm998+S0JVitFEIl7LWrT7rZP7dwaC9fb9oDUO7Y4axSFoDzqu9geIsLT5LK/uAVM2CCj8yblnxzWMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"
+        integrity="sha512-FJ2OYvUIXUqCcPf1stu+oTBlhn54W0UisZB/TNrZaVMHHhYvLBV9jMbvJYtvDe5x/WVaoXZ6KB+Uqe5hT2vlyA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

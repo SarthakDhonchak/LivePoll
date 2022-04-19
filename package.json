@@ -1,0 +1,35 @@
+{
+  "name": "livepoll",
+  "version": "1.0.0",
+  "description": "Realtime Polling app, alternative to strawpoll",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarthakDhonchak/LivePoll.git"
+  },
+  "keywords": [
+    "Live",
+    "Poll",
+    "StrawPoll"
+  ],
+  "author": "Sarthak Dhonchak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarthakDhonchak/LivePoll/issues"
+  },
+  "homepage": "https://github.com/SarthakDhonchak/LivePoll#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0",
+    "pusher": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
